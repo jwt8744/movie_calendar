@@ -56,7 +56,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "美国",
     "quote": "故事发生在一个所有哺乳类动物和谐共存的美好世界中，兔子朱迪（金妮弗·古德温 Ginn。",
-    "poster": "./posters/004-疯狂动物城.svg",
+    "poster": "./posters/004-疯狂动物城.jpg",
     "link": "https://movie.douban.com/subject/25662329/"
   },
   {
@@ -130,7 +130,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "中国大陆",
     "quote": "普通中年男子程勇（徐峥 饰）经营着一家保健品店，失意又失婚。",
-    "poster": "./posters/009-我不是药神.svg",
+    "poster": "./posters/009-我不是药神.jpg",
     "link": "https://movie.douban.com/subject/26752088/"
   },
   {
@@ -478,7 +478,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "美国",
     "quote": "小男孩卡尔（Carl Fredricksen）怀揣着对于冒险的热爱偶遇假小子艾丽（E。",
-    "poster": "./posters/032-飞屋环游记.svg",
+    "poster": "./posters/032-飞屋环游记.jpg",
     "link": "https://movie.douban.com/subject/2129039/"
   },
   {
@@ -865,7 +865,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "黎巴嫩 / 美国 / 法国 / 塞浦路斯 / 卡塔尔 / 英国",
     "quote": "法庭上，十二岁的男孩赞恩向法官状告他的亲生父母，原因是，他们给了他生命。",
-    "poster": "./posters/058-何以为家.svg",
+    "poster": "./posters/058-何以为家.jpg",
     "link": "https://movie.douban.com/subject/30170448/"
   },
   {
@@ -2139,7 +2139,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "中国台湾",
     "quote": "棠家一脉花开，将军身故，棠夫人站在家族宗法宝塔上，也就立足弥陀乡政治的顶端。",
-    "poster": "./posters/143-血观音.svg",
+    "poster": "./posters/143-血观音.jpg",
     "link": "https://movie.douban.com/subject/27113517/"
   },
   {
@@ -2527,7 +2527,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "中国大陆",
     "quote": "第二次世界大战期间，中国河北挂甲台村的农民马大三（姜文饰）在日本人的统治下过着平静的。",
-    "poster": "./posters/169-鬼子来了.svg",
+    "poster": "./posters/169-鬼子来了.jpg",
     "link": "https://movie.douban.com/subject/1291858/"
   },
   {
@@ -2809,7 +2809,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "日本",
     "quote": "一栋普普通通的公寓，住着失去了丈夫的女子早织（安藤樱 饰）及其就读小学的儿子麦野湊（。",
-    "poster": "./posters/188-怪物.svg",
+    "poster": "./posters/188-怪物.jpg",
     "link": "https://movie.douban.com/subject/35797709/"
   },
   {
@@ -3188,7 +3188,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "中国大陆 / 中国香港",
     "quote": "20世纪70年代初的北京，忙着“闹革命”大人无空理会小孩，加上学校停课无事可做，以军。",
-    "poster": "./posters/214-阳光灿烂的日子.svg",
+    "poster": "./posters/214-阳光灿烂的日子.jpg",
     "link": "https://movie.douban.com/subject/1291875/"
   },
   {
@@ -3605,7 +3605,7 @@ window.FILM_LIBRARY = [
     ],
     "country": "美国",
     "quote": "小老鼠雷米在嗅觉方面有着无与伦比的天赋，不想过与垃圾堆为伴的生活，心怀成为五星大厨的。",
-    "poster": "./posters/242-美食总动员.svg",
+    "poster": "./posters/242-美食总动员.jpg",
     "link": "https://movie.douban.com/subject/1793491/"
   },
   {
