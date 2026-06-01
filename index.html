@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026 电影日历</title>
+    <meta
+      name="description"
+      content="calendar.captainland.icu - 打开就是当天日期的 2026 电影日历，单月浏览，每天一部不重复豆瓣高分电影。"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260530j" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="page-head">
+        <div class="page-head-main">
+          <p class="eyebrow">calendar.captainland.icu</p>
+          <h1>2026 电影日历</h1>
+        </div>
+      </header>
+
+      <main class="app-layout">
+        <section class="calendar-panel" aria-label="电影日历">
+          <div class="calendar-toolbar">
+            <h2 class="calendar-title" id="calendar-title">2026年5月</h2>
+            <div class="calendar-controls">
+              <button class="nav-button" id="prev-month" type="button" aria-label="上一个月">‹</button>
+              <button class="nav-button" id="next-month" type="button" aria-label="下一个月">›</button>
+              <button class="today-button" id="jump-today" type="button">今天</button>
+            </div>
+          </div>
+
+          <div class="calendar-stage">
+            <div class="calendar-glow calendar-glow-a"></div>
+            <div class="calendar-glow calendar-glow-b"></div>
+            <div class="weekday-row" id="weekday-row" aria-hidden="true"></div>
+            <div class="month-grid" id="month-grid" aria-label="月份日期网格"></div>
+          </div>
+
+          <div class="calendar-foot">
+            <div class="calendar-feature-card">
+              <div class="calendar-feature-poster-wrap">
+                <img class="calendar-feature-poster" id="feature-poster" alt="选中日期电影海报" />
+              </div>
+              <div class="calendar-feature-copy">
+                <p class="calendar-feature-kicker">当日推荐</p>
+                <p class="calendar-feature-date" id="feature-date">2026-05-30</p>
+                <h3 class="calendar-feature-title" id="feature-title">电影标题</h3>
+                <div class="calendar-feature-meta" id="feature-meta"></div>
+                <p class="calendar-feature-note" id="feature-note">当月日期会映射到不同的豆瓣高分电影。</p>
+              </div>
+            </div>
+
+            <div class="calendar-stats-card">
+              <div class="month-progress-head">
+                <span id="month-progress-label">5 月进度</span>
+                <strong id="month-progress-value">30/31</strong>
+              </div>
+              <div class="month-progress-bar">
+                <span id="month-progress-fill"></span>
+              </div>
+              <div class="calendar-chip-row" id="feature-genres"></div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="detail-panel" aria-label="当天电影详情">
+          <p class="detail-date" id="detail-date">2026-05-30</p>
+
+          <div class="detail-poster-wrap">
+            <img class="detail-poster" id="detail-poster" alt="当天电影海报" />
+          </div>
+
+          <div class="detail-copy">
+            <h3 class="detail-title" id="detail-title">电影标题</h3>
+            <div class="detail-meta-grid" id="detail-meta-grid"></div>
+            <p class="detail-copy-kicker">片历短笺</p>
+            <p class="detail-quote" id="detail-quote"></p>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <div class="audio-widget">
+      <button class="audio-trigger" id="audio-toggle" type="button" aria-label="播放或暂停背景音乐">♪</button>
+      <div class="audio-panel">
+        <div class="audio-header">
+          <p class="audio-track" id="audio-track">Quiet Nocturne I</p>
+          <p class="audio-status" id="audio-status">未播放</p>
+        </div>
+        <label class="audio-volume-wrap" for="audio-volume">
+          <span>音量</span>
+          <input id="audio-volume" class="audio-volume" type="range" min="0" max="100" value="22" />
+        </label>
+      </div>
+    </div>
+
+    <script src="./movies.js?v=20260601-local"></script>
+    <script src="./script.js?v=20260601-local"></script>
+  </body>
+</html>
